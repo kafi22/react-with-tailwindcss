@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: black;
+}
+
+.btn_card {
+  @apply h-12 w-36 text-xl flex justify-center items-center rounded-lg py-4 px-6 bg-lime-600 text-black font-bold my-5 text-center m-auto
+}
